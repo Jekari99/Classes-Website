@@ -1,0 +1,18 @@
+{
+  "name": "website---my-classes",
+  "version": "1.0.0",
+  "description": "Website to keep track of your classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jekari Rawls",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "limiter": "^2.1.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.5",
+    "sqlite3": "^5.0.8"
+  }
+}

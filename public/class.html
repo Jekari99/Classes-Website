@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website to keep track of my classes">
+    <meta name="author" content="Jekari Rawls">
+    <title>Class</title>
+    <link rel="stylesheet" href="indexcss.css">
+    <link rel="stylesheet" href="classcss.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li> <a href="/index.html">Home</a></li>
+                <li> <a href="/class.html">Classes</a></li>
+                <li> <a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Classes Tracker</h1>
+
+    </header>
+
+    <div class="classes">
+        <div class="form-container">
+            <h2 id="input-heading">Input your Classes</h2>
+            <form action="/add" method="post">
+                <div id="textfield">
+                    <label for="class_category">Class Descriptor</label>
+                    <input type="text" placeholder="ex:CSCI, MATH" name="class_category" id="class_category">
+                </div>
+                <div id="textfield">
+                    <label for="class_number">Class Number</label>
+                    <input type="text" placeholder="ex:211, 141" name="class_number" id="class_number">
+                </div>
+                <div id="textfield">
+                    <label for="professor">Professor Name</label>
+                    <input type="text" placeholder="ex:Anne Smith" name="professor" id="professor">
+                </div>
+
+                <button id="add-btn">Add Class</button>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <h2>View Classes</h2>
+        <table>
+            <tr>
+                <th>Class Category</th>
+                <th>Class Number</th>
+                <th>Professor</th>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="required_classes">
+        <h2 id="headingReq">Required Classes</h2>
+        <div class="reqClassTable">
+            <div class="csClassTable">
+                <table>
+                    <tr>
+                        <th colspan="3">Computer Science</th>
+                    </tr>
+                    <tr>
+                        <th>Class Category</th>
+                        <th>Class Number</th>
+                        <th>Professor</th>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">CSCI</td>
+                        <td rowspan="2">111</td>
+                        <td>Rebecca Schley</td>
+                    </tr>
+                    <tr>
+                        <td>Xinying Chyn</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">CSCI</td>
+                        <td rowspan="2">211</td>
+                        <td>Jerry Waxman</td>
+                    </tr>
+                    <tr>
+                        <td>Yosef Alayev</td>
+                    </tr>
+                    <tr>
+                        <td>CSCI</td>
+                        <td>212</td>
+                        <td>Kenneth Lord</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">CSCI</td>
+                        <td rowspan="3">220</td>
+                        <td>Xinying Chyn</td>
+                    </tr>
+                    <tr>
+                        <td>Delaram Kahrobaei</td>
+                    </tr>
+                    <tr>
+                        <td>Paul Cesaretti</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">CSCI</td>
+                        <td rowspan="2">240</td>
+                        <td>Joseph Svitak</td>
+                    </tr>
+                    <tr>
+                        <td>Jackson Yeh</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="4">CSCI</td>
+                        <td rowspan="4">313</td>
+                        <td>Chailing Tsai</td>
+                    </tr>
+                    <tr>
+                        <td>Anne Smith-Thompson</td>
+                    </tr>
+                    <tr>
+                        <td>Oren Steinberg</td>
+                    </tr>
+                    <tr>
+                        <td>Alla Rozovskaya</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">CSCI</td>
+                        <td rowspan="2">320</td>
+                        <td>Bojana Obrenic</td>
+                    </tr>
+                    <tr>
+                        <td>Kent Boklan</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="4">CSCI</td>
+                        <td rowspan="4">343</td>
+                        <td>Simina Fluture</td>
+                    </tr>
+                    <tr>
+                        <td>Anne Smith-Thompson</td>
+                    </tr>
+                    <tr>
+                        <td>Vivek Upadhyay</td>
+                    </tr>
+                    <tr>
+                        <td>Md Mahbubur Rahman</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="3">CSCI</td>
+                        <td rowspan="3">323</td>
+                        <td>Mayank Goswami</td>
+                    </tr>
+                    <tr>
+                        <td>Tsaiyun Phillips</td>
+                    </tr>
+                    <tr>
+                        <td>Theodore Brown</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="4">CSCI</td>
+                        <td rowspan="4">331</td>
+                        <td>Bojana Obrenic</td>
+                    </tr>
+                    <tr>
+                        <td>Oren Steinberg</td>
+                    </tr>
+                    <tr>
+                        <td>Peter Heller</td>
+                    </tr>
+                    <tr>
+                        <td>Daniel Leavitt</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="3">CSCI</td>
+                        <td rowspan="3">370</td>
+                        <td>Andy Abrue</td>
+                    </tr>
+                    <tr>
+                        <td>Bon Sy</td>
+                    </tr>
+                    <tr>
+                        <td>Aryeh Greenberg</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="3">CSCI</td>
+                        <td rowspan="3">316</td>
+                        <td>Tatyung Kong</td>
+                    </tr>
+                    <tr>
+                        <td>Joseph Svitak</td>
+                    </tr>
+                    <tr>
+                        <td>Anne Smith-Thompson</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">CSCI</td>
+                        <td rowspan="2">340</td>
+                        <td>Simina Fluture</td>
+                    </tr>
+                    <tr>
+                        <td>John Svadlenka</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="mathClassTable">
+                <table>
+                    <tr>
+                        <th colspan="3">Math</th>
+                    </tr>
+                    <tr>
+                        <th>Class Category</th>
+                        <th>Class Number</th>
+                        <th>Professor</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="8">MATH</td>
+                        <td rowspan="8">120</td>
+                        <td>Christopher Hanusa</td>
+                    </tr>
+                    <tr>
+                        <td>Zhani Joanidhi</td>
+                    </tr>
+                    <tr>
+                        <td>Wjeewani Boteju</td>
+                    </tr>
+                    <tr>
+                        <td>Arnold Fischthal</td>
+                    </tr>
+                    <tr>
+                        <td>Adam Wang</td>
+                    </tr>
+                    <tr>
+                        <td>Kirsten Berger</td>
+                    </tr>
+                    <tr>
+                        <td>Steven Goldman</td>
+                    </tr>
+                    <tr>
+                        <td>Junjie Chen</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="15">MATH</td>
+                        <td rowspan="15">141</td>
+                        <td>Stephen Nicastro</td>
+                    </tr>
+                    <tr>
+                        <td>Adam Wang</td>
+                    </tr>
+                    <tr>
+                        <td>Mikhail Kimatov</td>
+                    </tr>
+                    <tr>
+                        <td>Steven Goldman</td>
+                    </tr>
+                    <tr>
+                        <td>Yongwu Rong</td>
+                    </tr>
+                    <tr>
+                        <td>Ricardo Gonzalez</td>
+                    </tr>
+                    <tr>
+                        <td>Jessica Tobar</td>
+                    </tr>
+                    <tr>
+                        <td>Eugene Don</td>
+                    </tr>
+                    <tr>
+                        <td>Adele Broges</td>
+                    </tr>
+                    <tr>
+                        <td>Desmond Flynn</td>
+                    </tr>
+                    <tr>
+                        <td>Priya Kalra</td>
+                    </tr>
+                    <tr>
+                        <td>Sudeb Mitra</td>
+                    </tr>
+                    <tr>
+                        <td>Adele Broges</td>
+                    </tr>
+                    <tr>
+                        <td>Bryan Nevarez</td>
+                    </tr>
+                    <tr>
+                        <td>Sharon Erlbaum</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">MATH</td>
+                        <td rowspan="6">142</td>
+                        <td>Maria Sabitova</td>
+                    </tr>
+                    <tr>
+                        <td>Tony Wen</td>
+                    </tr>
+                    <tr>
+                        <td>Michael Riccardo</td>
+                    </tr>
+                    <tr>
+                        <td>Sara Gant</td>
+                    </tr>
+                    <tr>
+                        <td>Marjana Islam</td>
+                    </tr>
+                    <tr>
+                        <td>Alan Sultan</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">MATH</td>
+                        <td rowspan="3">143</td>
+                        <td>Martin Braun</td>
+                    </tr>
+                    <tr>
+                        <td>Zong Wang Liu</td>
+                    </tr>
+                    <tr>
+                        <td>Sharon Erlbaum</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="10">MATH</td>
+                        <td rowspan="10">231</td>
+                        <td>Blendi Koroveshi</td>
+                    </tr>
+                    <tr>
+                        <td>Nicholas Vlamis</td>
+                    </tr>
+                    <tr>
+                        <td>Gary Berman</td>
+                    </tr>
+                    <tr>
+                        <td>Maria Sabitova</td>
+                    </tr>
+                    <tr>
+                        <td>Joseph Pastore</td>
+                    </tr>
+                    <tr>
+                        <td>David Miller</td>
+                    </tr>
+                    <tr>
+                        <td>Yunping Jiang</td>
+                    </tr>
+                    <tr>
+                        <td>Michael Joseph</td>
+                    </tr>
+                    <tr>
+                        <td>Saeed Zakeri</td>
+                    </tr>
+                    <tr>
+                        <td>Michael Pandazis</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="8">MATH</td>
+                        <td rowspan="8">241</td>
+                        <td>Fern Sisser</td>
+                    </tr>
+                    <tr>
+                        <td>Elliot Gangaram</td>
+                    </tr>
+                    <tr>
+                        <td>Nicholas Vlamis</td>
+                    </tr>
+                    <tr>
+                        <td>Stefan Ralescu</td>
+                    </tr>
+                    <tr>
+                        <td>David Miller</td>
+                    </tr>
+                    <tr>
+                        <td>Bryan Nevarez</td>
+                    </tr>
+                    <tr>
+                        <td>Zong Wang Liu</td>
+                    </tr>
+                    <tr>
+                        <td>Michael Pandazis</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="class.js"></script>
+</body>
+
+</html>

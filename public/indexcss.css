@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap');
+
+@font-face {
+    src: local('Pacifico Regular'), url("https://fonts.googleapis.com/css?family=Alata&display=swap");
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-display: fallback;
+    /* Define how the browser behaves during download */
+    font-display: swap;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background: rgb(223, 228, 230);
+    background: linear-gradient(90deg, rgba(223, 228, 230, 1) 60%, rgba(255, 255, 255, 1) 89%);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-size: 58px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 00px;
+    padding-bottom: 00px;
+    padding-left: 0;
+    overflow: hidden;
+    background-color: #d3d3d3;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 0px;
+    padding: 0px;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+nav a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 14px;
+    margin: 0;
+}
+
+nav a:hover {
+    background-color: #a3a3a3;
+}
+
+
+
+.image {
+    margin: 5px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 15%;
+    border: 1px solid black;
+    float: left;
+}
+
+.container .info {
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: block;
+    }
+}

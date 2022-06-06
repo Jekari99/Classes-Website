@@ -1,0 +1,88 @@
+.form-container {
+    padding: 3em;
+    margin: 3em;
+    font-family: 'Alata', sans-serif;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    border: 0.2px solid #4d4d4d27;
+    box-shadow: 0px 5px 5px 5px #a1a1a1;
+}
+
+.form-container label {
+    font-size: 1rem;
+    outline: none;
+    padding: 10px;
+    display: block;
+}
+
+.form-container #textfield {
+    margin: 5px;
+    padding: 20px;
+}
+
+.form-container input[type=text] {
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1rem 0.7rem;
+    color: gray;
+    width: -webkit-fill-available;
+    transition: 0.1s ease-out;
+    font-family: 'Alata', sans-serif;
+}
+
+.form-container #add-btn {
+    background-color: #d0d0d0;
+    color: black;
+    padding: 16px 20px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+.form-container #add-btn:hover {
+    background-color: #505050;
+    box-shadow: #202020;
+}
+
+#input-heading {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#headingReq {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reqClassTable {
+    display: flex;
+}
+
+.reqClassTable table {
+    margin: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    border: 0.2px solid #4d4d4d27;
+    box-shadow: 0px 5px 5px 5px #a1a1a1;
+}
+
+.reqClassTable table td,
+.reqClassTable table th {
+    border: 1px solid #a1a1a1;
+    padding: 8px;
+    border-bottom: 5px solid #a1a1a1;
+
+}
+
+@media (max-width: 600px) {
+    .reqClassTable {
+        display: block;
+    }
+}
