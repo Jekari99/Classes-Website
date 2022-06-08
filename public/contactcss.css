@@ -76,3 +76,42 @@
 .mailContact a:hover {
     color: #101010;
 }
+
+.githubInfo {
+    margin: 3rem;
+    margin-bottom: 2rem;
+    padding: 10px;
+    background-color: #d0d0d0;
+    border: 1px solid #a1a1a1;
+    box-shadow: 0px 5px 5px 5px #a1a1a1;
+    border-radius: 10px;
+}
+
+.gitInfo {
+    margin-top: 2rem;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gitContact {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.git {
+    width: 20px;
+    padding: 10px;
+}
+
+.gitContact a {
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.gitContact a:hover {
+    color: #101010;
+}
