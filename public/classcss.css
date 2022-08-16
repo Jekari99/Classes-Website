@@ -54,12 +54,15 @@
     text-align: center;
 }
 
+
+
 #headingReq {
     text-transform: uppercase;
     text-align: center;
 }
 
 .reqClassTable {
+
     display: flex;
 }
 
